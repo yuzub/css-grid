@@ -31,11 +31,11 @@ ul {
   list-style-type: none;
   float: right;
 }
-ul li {
+header ul li {
   display: inline;
   padding: 15px;
 }
-ul li a {
+header ul li a {
   color: #fff;
 }
 header {
@@ -85,6 +85,7 @@ footer {
 #features {
   display: grid;
   grid-template-columns: repeat(5, auto);
+  grid-column-gap: 10px;
   margin: 0;
   padding: 0;
 }
@@ -92,5 +93,11 @@ footer {
   font-size: 2em;
 }
 ul#features li {
-  
+  background-color: lightgray;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+ul#features li p {
+  color: #4c4c4c;
 }
